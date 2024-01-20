@@ -36,7 +36,8 @@ require('mason-lspconfig').setup({
 		'tflint',
 		'pkgbuild_language_server',
 		'dockerls',
-		'docker_compose_language_service'
+		'docker_compose_language_service',
+                'jdtls'
 	},
 	handlers = {
 		lsp_zero.default_setup,
